@@ -28,7 +28,6 @@ export function createRouter (routes, options = {}) {
         return route.component
       if (typeof route.redirect === 'string')
         history.replace(route.redirect);
-      return null;
     }
   })
 
