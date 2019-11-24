@@ -1,0 +1,30 @@
+{
+  "name": "dyo-router",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TongChia/dyo-router.git"
+  },
+  "keywords": [
+    "dyo",
+    "universal-router"
+  ],
+  "author": "TongChia <tongchia@live.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TongChia/dyo-router/issues"
+  },
+  "homepage": "https://github.com/TongChia/dyo-router#readme",
+  "peerDependencies": {
+    "dyo": "^1.0.1"
+  },
+  "dependencies": {
+    "history": "^4.10.1",
+    "universal-router": "^8.3.0"
+  }
+}
